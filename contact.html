@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Spot Light - Contact</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!--
+Template 2051 Spot Light
+http://www.tooplate.com/view/2051-spot-light
+-->
+<link href="css/tooplate_style.css" rel="stylesheet" type="text/css" />
+
+<!--////// CHOOSE ONE OF THE 3 PIROBOX STYLES  \\\\\\\-->
+<link href="css_pirobox/white/style.css" media="screen" title="shadow" rel="stylesheet" type="text/css" />
+<!--<link href="css_pirobox/white/style.css" media="screen" title="white" rel="stylesheet" type="text/css" />
+<link href="css_pirobox/black/style.css" media="screen" title="black" rel="stylesheet" type="text/css" />-->
+<!--////// END  \\\\\\\-->
+
+<!--////// INCLUDE THE JS AND PIROBOX OPTION IN YOUR HEADER  \\\\\\\-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/piroBox.1_2.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$().piroBox({
+        my_speed: 600, //animation speed
+        bg_alpha: 0.5, //background opacity
+        radius: 4, //caption rounded corner
+        scrollImage : false, // true == image follows the page, false == image remains in the same open position
+        pirobox_next : 'piro_next', // Nav buttons -> piro_next == inside piroBox , piro_next_out == outside piroBox
+        pirobox_prev : 'piro_prev',// Nav buttons -> piro_prev == inside piroBox , piro_prev_out == outside piroBox
+        close_all : '.piro_close',// add class .piro_overlay(with comma)if you want overlay click close piroBox
+        slideShow : 'slideshow', // just delete slideshow between '' if you don't want it.
+        slideSpeed : 4 //slideshow duration in seconds(3 to 6 Recommended)
+});
+});
+</script>
+<!--////// END  \\\\\\\-->
+    
+</head>
+<body id="subpage">
+<div id="tooplate_wrapper">
+    <div id="tooplate_header_sp">
+        <div id="tooplate_menu">
+            <ul>
+                <li><a href="index.html"><span></span>Начало</a></li>
+                <li><a href="about.html"><span></span>О нас</a></li>
+                <li><a href="gallery.html"><span></span>Галерея</a></li>
+                <li><a href="blog.html"><span></span>Блог</a></li>
+                <li><a href="contact.html" class="current"><span></span>Контакт</a></li>
+            </ul>    	
+        </div> <!-- end of tooplate_menu -->
+        
+        <div id="site_title"><h1><a href="https://www.ukr.net/news/sport.html">Ваша свобода</a></h1></div>
+        
+    </div> <!-- end of header -->
+    
+    <div id="tooplate_main">
+    	
+    	<div id="tooplate_sidebar">
+        	<div class="sidebar_box">
+            	<h2>Навигация</h2>
+                <ul class="sidebar_nav">
+                	<li><a href="#">Спорт тренировки</a></li>
+                    <li><a href="#">Спортивное питание</a></li>
+                    <li><a href="#">Индивидуальные тренировки</a></li>
+                    <li><a href="#">Подбор группы для тренировки</a></li>
+                	<li><a href="#">Личные тренера</a></li>
+                    <li><a href="#">О нас </a></li>
+                </ul>
+            </div>
+            
+        	<div class="sidebar_box">
+                	<h2>Наши новости</h2>
+                <div class="news_box">
+                    <a href="#">Donec eu orci dolor</a>
+                    <p>Integer eros augue, auctor vel scelerisque at, sit amet odio. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.</p>
+                </div>
+                <div class="news_box">
+                    <a href="#">Aliquam bibendum vulputate</a>
+                    <p>Duis neque metus, ullamcorper sit amet dictum vel, tincidunt sit amet felis.</p>
+                </div>
+			</div>
+          
+        </div> <!-- end of sidebar -->
+        
+        <div id="tooplate_content">
+       	  
+			<h2>Контактная информация</h2>
+            <div class="cleaner h20"></div>
+        	
+            <div>
+                <div class="col_w400 float_l">	
+               <div id="contact_form">
+            
+                    <h4>Быстрая контактная форма</h4>
+                    
+                    <form method="post" name="contact" action="#"> 
+
+                            <label for="author">Имя:</label> <input type="text" id="author" name="author" class="required input_field" />
+                            <div class="cleaner h10"></div>
+                                                        
+                            <label for="email">Email:</label> <input type="text" class="validate-email required input_field" name="email" id="email" />
+                            <div class="cleaner h10"></div>
+                                                
+                            <label for="subject">Тема:</label> <input type="text" class="validate-subject required input_field" name="subject" id="subject"/>				               
+                            <div class="cleaner h10"></div>
+                                
+                            <label for="text">Сообщение:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+                            <div class="cleaner h10"></div>				
+                                                    
+                            <input type="submit" value="отправить" id="submit" name="submit" class="submit_btn float_l" />
+                            <input type="reset" value="очистить" id="reset" name="reset" class="submit_btn float_r" />                           
+ 					</form>
+           
+                </div>  
+                </div>            
+                <div class="col_w200 float_r">
+                    <h4>Наше местоположение</h4>
+                    <div id="map">
+                        <a class="pirobox" href="images/map_big.jpg" title="Our Location"><img src="images/map_thumb.jpg" allowfullscreen></a>
+                        <div class="cleaner h40"></div>
+                        <h4>Адрес</h4>
+                        <h6><strong>Киев</strong></h6>
+                            0223 Троещина, <br />
+                            ул.Бальзака-Милославская<br />
+                            сквер спорт-зал <br />
+                            <br />
+                            <strong>Phone:</strong> 099-546-1915<br />
+                            <strong>Email:</strong> <a href="mailto:info@company.com">romadak@ukr.net</a></div>                
+                	</div>
+			</div>
+                   
+        </div> <!-- end of content -->
+        
+        <div class="cleaner h20"></div>
+    </div> <!-- end of main -->
+    
+</div> <!-- end of wrapper -->
+<div id="tooplate_footer_wrapper">
+    <div id="tooplate_footer">
+        Copyright © 2019 <a href="#">Киев</a> -Спортленд <a href="http://www.tooplate.com" target="_parent">Website </a>
+        <div class="cleaner"></div>
+    </div>
+</div>  
+        
+</body>
+</html>
