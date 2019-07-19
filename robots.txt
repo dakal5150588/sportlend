@@ -1,0 +1,7 @@
+User-agent:*
+Disallow:
+
+User-agent:GoogleBot
+Disallow:
+Host:www.kiev2018w.cc.ua
+Sitemap:http://www.kiev2018w.cc.ua/index.html
